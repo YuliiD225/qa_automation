@@ -65,9 +65,6 @@ function createArray(element) {
     }
   }
 
-/*function increase(arg) {
-    return arg + arg;
-  }*/
 
 console.log(createArray(5)); // виведе [ 5, 10, 15, 20, 25, 30 ]
 console.log(createArray(3)); // виведе [ 3,  6,  9, 12, 15, 18, 21, 24, 27, 30 ]
