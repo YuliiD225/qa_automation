@@ -1,0 +1,23 @@
+{
+  "name": "qa_automation",
+  "version": "1.0.0",
+  "description": "QA AUTOMATION COURSE",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliiD225/qa_automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliiD225/qa_automation/issues"
+  },
+  "homepage": "https://github.com/YuliiD225/qa_automation#readme",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }, 
+  "type": "module"
+}
