@@ -11,12 +11,6 @@ const baseUrl = "https://jsonplaceholder.typicode.com/posts/";
 /* 2. Реалізувати функцію getPostsByUsedId, яка буде знаходити пости з ресурсу https://jsonplaceholder.typicode.com/posts та робити 
 вибірку постів за id користувача. Також у всіх відфільтрованих постів повинна бути відсутня властивість title */
 
-/*async function getPostsByUsedId(baseUrl, userId) {
-  const resp = await fetch (baseUrl);
-  const posts = await resp.json();
-  return posts.filter(post => post.userId === userId);
-}
-*/
 const posts = await getPostsByUsedId(baseUrl, 5);
 console.log(posts); // маємо тільки пости юзера з id = 5, у яких нема title
 
